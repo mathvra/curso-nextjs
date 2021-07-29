@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.black{
+  background: black;
+  width: 100px;
+  height: 100px;
+}
+.white{
+  background: white;
+  width: 100px;
+  height: 100px;
+}
+
+.container{
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabuleiro{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  max-height: 800px;
+}
